@@ -1,0 +1,59 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 10px 0;
+  }
+  
+  .header-center {
+    text-align: center;
+  }
+  
+  .main {
+    margin-top: 60px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn-add, .btn-back {
+    padding: 8px 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-add:hover, .btn-back:hover {
+    background: #0056b3;
+  }
+  
+  .item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .edit, .delete {
+    cursor: pointer;
+  }
